@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>DBC Diagnostics</title>
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen">
+</head>
+<body>
+	<div class="main">
+	<h1 class="intro">Welcome to the DBC diagnostics page</h1>
+	<h3>Please fill out the form honestly and correctly so we can diagnose your symptoms</h3>
+	
+	<form action="#" method="POST" name ="my_form">
+		<label for="username" class="sup">Name:</label>
+		<input type="text" name="username" id="username"><br>
+		<fieldset>
+		  <legend>What did you eat for Breakfast?</legend>			
+			<input type="radio" name="breakfast" value="I ate Breakfast" id="ybreakfast">
+			<label for="ybreakfast">I Ate Breakfast</label><br>
+			<input type="radio" name="breakfast" value="I didn't eat Breakfast" id="nbreakfast">
+			<label for="nbreakfast">I Didn't eat Breakfast</label><br>
+			<input type="checkbox" name="foods" value="Cereal" id="cereal">
+			<label for="cereal">Cereal</label><br>
+			<input type="checkbox" name="foods" value="Milk" id="milk">
+			<label for="milk">Milk</label><br>
+			<input type="checkbox" name="foods" value="Eggs" id="eggs">
+			<label for="eggs">Eggs</label><br>
+			<input type="checkbox" name="foods" value="Toast" id="toast">
+			<label for="toast">Toast</label><br>
+			<input type="checkbox" name="foods" value="Pancakes" id="pancakes">
+			<label for="pancakes">Pancakes</label><br>
+			<input type="checkbox" name="foods" value="Bagel" id="bagel">
+			<label for="bagel">Bagel and Lox</label><br>
+			<input type="checkbox" name="foods" value="Coffee" id="coffee">
+			<label for="coffee">Coffee</label><br>
+			<input type="checkbox" name="foods" value="Waffles" id="waffles">
+			<label for="waffles">Waffles</label><br>
+			<input type="checkbox" name="foods" value="Orange Juice" id="oj">
+			<label for="oj">Orange Juice</label><br>
+			<input type="checkbox" name="foods" value="Multi-Vitamin" id="mvit">
+			<label for="mvit">Multi-Vitamin</label><br>
+			<input type="checkbox" name="foods" value="Water" id="water">
+			<label for="water">Water</label><br>
+			<input type="checkbox" name="foods" value="Other" id="other">
+			<label for="other">Other, Please describe in your Breakfast Experience if you checked off other</label><br>
+			<legend><label for="bhunger">At the end of Breakfast were you still hungry?</label></legend>
+			<select id="bhunger">
+				<option>Didn't Eat Breakfast</option>
+				<option>Famished</option>
+				<option>Still Hungry</option>
+				<option>Slightly Hungry</option>
+				<option>Full</option>
+				<option>I can't eat anymore stop talking about food</option>
+			</select>
+			<legend><label for="bexperience">Describe your Breakfast Experience</label></legend>
+			<textarea name="breakfast" rows ="10" cols="40" id="bexperience"></textarea><br>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>What did you eat for Lunch?</legend>
+			<input type="radio" name="lunch" value="I ate Lunch" id="ylunch">
+			<label for="ylunch">I Ate Lunch</label><br>
+			<input type="radio" name="lunch" value="I didn't eat Lunch" id="nlunch">
+			<label for="nlunch">I Didn't eat Lunch</label><br>
+			<input type="checkbox" name="foods" value="Cereal" id="lcereal">
+			<label for="lcereal">Cereal</label><br>
+			<input type="checkbox" name="foods" value="Burgers" id="lburgers">
+			<label for="lburgers">Hamburger or Cheeseburger</label><br>
+			<input type="checkbox" name="foods" value="Chicken" id="lchicken">
+			<label for="lchicken">Chicken Sandwich</label><br>
+			<input type="checkbox" name="foods" value="French_Fries" id="fries">
+			<label for="fries">French Fries</label><br>
+			<input type="checkbox" name="foods" value="Tacos" id="tacos">
+			<label for="tacos">Tacos</label><br>
+			<input type="checkbox" name="foods" value="Pizza" id="pizza">
+			<label for="pizza">Pizza</label><br>
+			<input type="checkbox" name="foods" value="Salad" id="salad">
+			<label for="salad">Salad</label><br>
+			<input type="checkbox" name="foods" value="Pasta" id="pasta">
+			<label for="pasta">Pasta</label><br>
+			<input type="checkbox" name="foods" value="Steak" id="steak">
+			<label for="steak">Steak</label><br>	
+			<input type="checkbox" name="foods" value="Fish" id="fish">
+			<label for="fish">Fish</label><br>
+			<input type="checkbox" name="foods" value="Soda" id="soda">
+			<label for="soda">Soda</label><br>
+			<input type="checkbox" name="foods" value="Coffee" id="lcoffee">
+			<label for="lcoffee">Coffee</label><br>
+			<input type="checkbox" name="foods" value="Protein" id= "lpshake">
+			<label for="lpshake">Protein Shake</label><br>
+			<input type="checkbox" name="foods" value="Ice-Cream" id="lcream">
+			<label for="lcream">Ice Cream</label><br>
+			<input type="checkbox" name="foods" value="Water" id="lwater">
+			<label for="lwater">Water</label><br>
+			<input type="checkbox" name="foods" value="Other" id="lother">
+			<label for="lother">Other, Please describe in your Lunch Experience if you checked off other</label><br>
+			<legend><label for="lhunger">At the end of Lunch were you still hungry?</label></legend>
+			<select id="lhunger">
+				<option>Didn't Eat Lunch</option>
+				<option>Famished</option>
+				<option>Still Hungry</option>
+				<option>Slightly Hungry</option>
+				<option>Full</option>
+				<option>I can't eat anymore stop talking about food</option>
+			</select>
+			<legend><label for="lexperience">Describe your Lunch Experience</label></legend>
+			<textarea name="breakfast" rows ="10" cols="40" id="lexperience"></textarea><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>What did you eat for Dinner?</legend>
+			<input type="radio" name="dinner" value="I Ate Dinner" id="ydinner">
+			<label for="ydinner">I Ate Dinner</label><br>
+			<input type="radio" name="dinner" value="I didn't eat Dinner" id="ndinner">
+			<label for="ndinner">I Didn't eat Dinner</label><br>
+			<input type="checkbox" name="foods" value="Cereal" id="dcereal">
+			<label for="dcereal">Cereal</label><br>
+			<input type="checkbox" name="foods" value="Burgers" id= "dburger">
+			<label for="dburger">Hamburger or Cheeseburger</label><br>
+			<input type="checkbox" name="foods" value="Chicken" id="dchicken">
+			<label for="dchicken">Chicken Sandwich</label><br>
+			<input type="checkbox" name="foods" value="Potato" id="potato">
+			<label for="potato">Potato</label><br>
+			<input type="checkbox" name="foods" value="Tacos" id="dtacos">
+			<label for="dtacos">Tacos</label><br>
+			<input type="checkbox" name="foods" value="Pizza" id="dpizza">
+			<label for="dpizza">Pizza</label><br>
+			<input type="checkbox" name="foods" value="Salad" id="dsalad">
+			<label for="dsalad">Salad</label><br>
+			<input type="checkbox" name="foods" value="Pasta" id="dpasta">
+			<label for="dpasta">Pasta</label><br>
+			<input type="checkbox" name="foods" value="Steak" id="dsteak">
+			<label for="dsteak">Steak</label><br>
+			<input type="checkbox" name="foods" value="Berries" id= "dber">
+			<label for="dber">Nuts and Berries</label><br>
+			<input type="checkbox" name="foods" value="Fish" id="dfish">
+			<label for="dfish">Fish</label><br>
+			<input type="checkbox" name="foods" value="Protein" id="dshake">
+			<label for="dshake">Protein Shake</label><br>
+			<input type="checkbox" name="foods" value="Ice-Cream" id="dicream">
+			<label for="dicream">Ice Cream</label><br>
+			<input type="checkbox" name="foods" value="Water" id="dwater">
+			<label for="dwater">Water</label><br>
+			<input type="checkbox" name="foods" value="Other" id="dother">
+			<label for="dother">Other, Please describe in your Dinner Experience if you checked off other</label><br>
+
+			<legend><label for="dhunger">At the end of Dinner were you still hungry?</label></legend>
+			<select id="dhunger">
+				<option>Didn't Eat Dinner</option>
+				<option>Famished</option>
+				<option>Still Hungry</option>
+				<option>Slightly Hungry</option>
+				<option>Full</option>
+				<option>I can't eat anymore stop talking about food</option>
+			</select>
+			<legend><label for="dexperience">Describe your Dinner Experience</label></legend>
+			<textarea name="breakfast" rows ="10" cols="40" id="dexperience"></textarea><br>
+			<legend><label for="hours">How many hours of sleep did you have last night?</label></legend>
+			<select id="hours">
+				<option>none</option>
+				<option>one</option>
+				<option>two</option>
+				<option>three</option>
+				<option>Four</option>
+				<option>Five</option>
+				<option>Six</option>
+				<option>Seven</option>
+				<option>Eight</option>
+				<option>Nine</option>
+				<option>More than 10</option>
+			</select>
+			<legend><label for="ccoffee">How many cups of coffee did you drink today?</label></legend>
+			<select id="ccoffee">
+				<option>none</option>
+				<option>one</option>
+				<option>two</option>
+				<option>three</option>
+				<option>Four</option>
+				<option>Five</option>
+				<option>Six</option>
+				<option>Seven</option>
+				<option>More than Eight</option>
+				<option>I don't drink coffee I drink RED BULL!</option>
+				<option>Energy Drinks, Energy Drinks I LOVE THEM!!!</option>
+			</select>
+			<legend><label for="ccoffee">When you dream do you dream you're coding?</label></legend>
+			<select id="ccoffee">
+				<option>Always</option>
+				<option>Mostly</option>
+				<option>Sometimes</option>
+				<option>Never</option>
+				<option>I don't dream</option>
+				<option>I prefer not to say</option>
+			</select>
+			<legend><label for="symptoms">In a few sentences please describe your symptoms</label></legend>
+			<textarea name="breakfast" rows ="10" cols="40" id="symptoms"></textarea><br>
+		</fieldset>
+		<input type="submit" value="Submit">
+	</div>
+
+	</form>
+</body>
+</html>
